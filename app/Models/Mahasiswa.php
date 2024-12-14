@@ -11,7 +11,7 @@ class Mahasiswa extends Model
 
      protected $table = 'mahasiswa';
 
-    // Menambahkan field yang boleh diisi secara massal
+     
     protected $fillable = [
         'nama',
         'nim',
